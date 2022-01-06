@@ -69,7 +69,17 @@ body{
 /* card section end */
 
 /* Develop without Limits section start  */
-
+.developer-bg{
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 227px;
+  background-position: left;
+  background-position-x: 64px;
+  background-position-y: 54px;
+  background-position: calc(4%);
+  
+  
+}
 #develop-limits {
   display: flex; 
   align-items: center;
@@ -84,9 +94,15 @@ body{
 /* Develop without Limits section end  */
 
 /* global-community  section start */
-
+.community-bg{
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 227px;
+  background-position-x: right;
+  background-position-y:100% ;
+}
 #global-community img{
-  width: 90%;
+  width: 75%;
   margin-left: 108px;
 }
 /* global-community  section end */
