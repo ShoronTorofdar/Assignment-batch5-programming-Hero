@@ -1,5 +1,6 @@
 body{
   font-family: 'Poppins', sans-serif;
+  margin: 0%;
 }
 
 /* stay Focused section's verticale line */
@@ -69,8 +70,49 @@ section div p{
   width: 141px;
 }
 
+/* card section end */
 
+/* Develop without Limits section start  */
 
+#develop-limits {
+  display: flex;
+  
+  align-items: center;
+}
+
+#develop-limits img{
+  width: 90%;
+  margin-right: 42px;
+}
+
+/* Develop without Limits section end  */
+
+/* global-community  section start */
+
+#global-community img{
+  width: 90%;
+  margin-left: 108px;
+}
+/* global-community  section end */
+
+/* footer section start */
+footer{
+  text-align: center;
+  color:#FFFFFF ;
+  background-color:#0B0D17 ;
+  padding-top: 39px;
+  padding-bottom: 42px;
+}
+
+footer  span, h1{
+  font-size: 36px;
+}
+
+footer span {
+  font-size: 36px;
+  color: #FF5959;
+}
+/* footer section end */
 
 /* common class */
 .flexible-container{
@@ -100,3 +142,12 @@ span{
 .bg-goals{
   background-color:#FFF4D6;
 }
+.half-width{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 158px;
+  margin-right: 156px;
+  margin-bottom: 84px;
+}
+
