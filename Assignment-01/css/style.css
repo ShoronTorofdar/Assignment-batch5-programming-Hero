@@ -94,6 +94,27 @@ section div p{
   margin-left: 108px;
 }
 /* global-community  section end */
+/* like section start */
+.likes-section{
+  display: flex;
+}
+.likes-section-s div{
+ margin: 10px;
+ margin-right: 90px;
+ margin-left: 0%;
+}
+.likes-section-s {
+  display: flex;
+  width: 40%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 300px;
+  box-shadow: 2px 1px 2px 3px aqua;
+}
+/* like section end */
 
 /* footer section start */
 footer{
