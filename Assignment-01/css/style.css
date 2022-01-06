@@ -1,0 +1,67 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* stay Focused section's verticale line */
+.vertical-line{
+    border-left: 4px solid #FF5959;
+    height: 134px;
+    padding-left: 13px;  
+    margin-left: 156px;
+    
+}
+
+/* stay Focused section section started */
+
+section{
+  display: flex;
+  justify-content: space-between;
+}
+section div img{
+  width: 426px;
+  height: 623px;
+  margin-right: 207px;
+}
+
+section div p{
+  font-size: 18px;
+  font-weight: normal;
+}
+#text-part{
+  margin-left: 157px;
+  margin-right: 179px;
+}
+
+
+/* MY Mission in 2022 */
+#my-mission{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+
+
+
+/* common class */
+.flexible-container{
+  display: flex;
+  align-items: center;
+}
+h1{
+  font-size: 60px
+}
+span{
+  font-size: 60px;
+  color: #FFAD5A;
+}
+.btn{
+  background-color: #FF5959;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 16px;
+  color:#ffffff;
+  text-decoration: none;
+  margin-bottom: 45px;
+}
