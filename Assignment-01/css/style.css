@@ -13,14 +13,16 @@ body{
 
 /* stay Focused section section started */
 
-section{
-  display: flex;
-  justify-content: space-between;
-}
-section div img{
+.flexible-container div img{
   width: 426px;
   height: 623px;
   margin-right: 207px;
+}
+
+.flexible-container h1{
+ 
+    font-size: 60px;
+  
 }
 
 section div p{
@@ -33,12 +35,38 @@ section div p{
 }
 
 
-/* MY Mission in 2022 */
+/* MY Mission section in 2022 */
+
+#goal-container{
+  margin-top: 42px;
+  margin-bottom: 86px;
+}
 #my-mission{
   display: flex;
   justify-content: center;
-  text-align: center;
-  margin-bottom: 48px;
+  align-items: center;
+}
+#my-mission h1{ 
+    font-size: 60px 
+}
+#card-container{
+  display: flex;
+  margin-top: 48px;
+  margin-left: 156px;
+  margin-right: 156px;
+  
+}
+#card-container div{
+  padding-right: 13px;
+  border-radius: 26px;
+  margin-left: 24px;
+}
+
+
+#card-container img{
+  margin-top: 25px;
+  height: 141px;
+  width: 141px;
 }
 
 
@@ -49,9 +77,7 @@ section div p{
   display: flex;
   align-items: center;
 }
-h1{
-  font-size: 60px
-}
+
 span{
   font-size: 60px;
   color: #FFAD5A;
@@ -64,4 +90,13 @@ span{
   color:#ffffff;
   text-decoration: none;
   margin-bottom: 45px;
+}
+.bg-Mission{
+  background-color:rgba(79, 157, 166, 0.1) ;
+}
+.bg-Vission{
+  background-color:rgba(255, 89, 89, 0.1) ;
+}
+.bg-goals{
+  background-color:#FFF4D6;
 }
